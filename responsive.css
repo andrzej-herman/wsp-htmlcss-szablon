@@ -1,0 +1,136 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+    padding: 0 20px;
+  }
+  .header__subtitle {
+    display: none;
+  }
+
+  main {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .title {
+    font-size: 24px;
+    font-weight: 900;
+  }
+
+  .content__right {
+    margin: 0 !important;
+    width: 100%;
+  }
+
+  .content__right__top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .bordered {
+    padding: 20px;
+  }
+
+  .text-small-muted {
+    font-size: 11px;
+    color: #000;
+    opacity: 0.6;
+  }
+
+  section {
+    margin-top: 20px;
+  }
+
+  .image {
+    width: 350px;
+    height: auto;
+    border-radius: 7px;
+  }
+
+  p {
+    text-align: justify;
+  }
+
+  .point {
+    height: 55px;
+    width: 55px;
+  }
+
+  .title-right {
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  .margin {
+    margin-top: 30px;
+  }
+
+  .right {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+  }
+
+  .section-title {
+    font-weight: 700;
+    font-size: 14px;
+    color: #1c6188;
+  }
+
+  .section-content {
+    margin-top: 5px;
+    font-size: 13px;
+    text-align: justify;
+    color: gray;
+    cursor: pointer;
+  }
+
+  footer {
+    margin-top: 10px;
+  }
+
+  .footer__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+  }
+
+  .footer__left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer__title {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+  }
+
+  .footer__right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+  }
+
+  .footer__down {
+    text-align: center;
+  }
+}

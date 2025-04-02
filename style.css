@@ -219,6 +219,7 @@ a {
 }
 
 .footer__text {
+  text-align: justify;
   font-size: 13px;
   opacity: 0.7;
 }
